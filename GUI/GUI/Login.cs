@@ -50,5 +50,10 @@ namespace GUI
                 PasswordTextBox.Clear();
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
