@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GUI",
+    "\\GUI\\GUI"
   ],
-  "SelectedNode": "\\GUI.sln",
+  "SelectedNode": "\\GUI\\GUI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
