@@ -68,5 +68,10 @@ namespace GUI
         {
             ButtonActivated(sender, Color.AliceBlue);
         }
+
+        private void s_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
