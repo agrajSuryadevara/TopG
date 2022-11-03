@@ -27,7 +27,7 @@ namespace GUI
 
         private void ButtonActivated(object senderBtn, Color color)
         {
-            if(senderBtn != null)
+            if (senderBtn != null)
             {
                 ButtonDisabled();
                 //Button
@@ -43,7 +43,7 @@ namespace GUI
 
         private void ButtonDisabled()
         {
-            if(CurrentButton != null)
+            if (CurrentButton != null)
             {
                 CurrentButton.TextAlign = ContentAlignment.MiddleCenter;
             }
@@ -67,11 +67,6 @@ namespace GUI
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-        }
-
-        private void s_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

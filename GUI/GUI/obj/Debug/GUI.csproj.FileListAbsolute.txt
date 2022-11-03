@@ -3,7 +3,6 @@ C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\GUI.exe
 C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\GUI.pdb
 C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
 C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
-C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Form1.resources
 C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
 C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 C:\Users\danie\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
@@ -60,3 +59,7 @@ C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.c
 C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1.mdf
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1_log.ldf
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Login.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.RM.resources
