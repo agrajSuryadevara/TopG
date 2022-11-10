@@ -62,6 +62,8 @@ namespace GUI
         private void IdeasButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
+            new Ideas().Show();
+            this.Hide();
         }
 
         private void RegistrationButton_Click(object sender, EventArgs e)

@@ -4,27 +4,26 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Regestration : Form
+    public partial class ClientList : Form
     {
         //
         //Fields
         //
         private Button CurrentButton;
         private Panel ButtonPanel;
-        public Regestration()
+        public ClientList()
         {
             InitializeComponent();
             ButtonPanel = new Panel();
             ButtonPanel.Size = new Size(5, 60);
             LeftPanel.Controls.Add(ButtonPanel);
-            regitrationButton();
+            clientList();
         }
 
         private void ButtonActivated(object senderBtn, Color color)
@@ -61,8 +60,6 @@ namespace GUI
         private void ClientListButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new ClientList().Show();
-            this.Hide();
         }
 
         private void IdeasButton_Click(object sender, EventArgs e)
@@ -75,12 +72,14 @@ namespace GUI
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
+            new Regestration().Show();
+            this.Hide();
         }
 
-        private void regitrationButton()
+        private void clientList()
         {
             //Button
-            CurrentButton = RegistrationButton;
+            CurrentButton = ClientListButton;
             CurrentButton.TextAlign = ContentAlignment.MiddleRight;
             //Border
             ButtonPanel.BackColor = Color.AliceBlue;
@@ -90,3 +89,4 @@ namespace GUI
         }
     }
 }
+

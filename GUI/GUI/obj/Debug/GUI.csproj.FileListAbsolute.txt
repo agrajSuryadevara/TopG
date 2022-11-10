@@ -67,3 +67,5 @@ C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1.
 C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1_log.ldf
 C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Regestration.resources
 C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Ideas.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Ideas.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Regestration.resources

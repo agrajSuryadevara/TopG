@@ -11,20 +11,20 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Regestration : Form
+    public partial class Account : Form
     {
         //
         //Fields
         //
         private Button CurrentButton;
         private Panel ButtonPanel;
-        public Regestration()
+        public Account()
         {
             InitializeComponent();
             ButtonPanel = new Panel();
             ButtonPanel.Size = new Size(5, 60);
             LeftPanel.Controls.Add(ButtonPanel);
-            regitrationButton();
+            accountButton();
         }
 
         private void ButtonActivated(object senderBtn, Color color)
@@ -54,8 +54,6 @@ namespace GUI
         private void AccountButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new Account().Show();
-            this.Hide();
         }
 
         private void ClientListButton_Click(object sender, EventArgs e)
@@ -75,12 +73,14 @@ namespace GUI
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
+            new Regestration().Show();
+            this.Hide();
         }
 
-        private void regitrationButton()
+        private void accountButton()
         {
             //Button
-            CurrentButton = RegistrationButton;
+            CurrentButton = AccountButton;
             CurrentButton.TextAlign = ContentAlignment.MiddleRight;
             //Border
             ButtonPanel.BackColor = Color.AliceBlue;
