@@ -1,2 +1,2 @@
 # TopG
-SoftwareEnginneringProject
+SoftwareEngineeringProject
