@@ -38,17 +38,30 @@ namespace GUI
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            if (UsernameTextBox.Text == "topg" && PasswordTextBox.Text == "demo")
+            if (UsernameTextBox.Text == "RM" && PasswordTextBox.Text == "demo")
             {
                 new RM().Show();
                 this.Hide();
             }
+
+            if (UsernameTextBox.Text == "AI" && PasswordTextBox.Text == "demo")
+            {
+                new IdeaAI().Show();
+                this.Hide();
+            }
+
+
             else
             {
                 MessageBox.Show("Your credentials combination are wrong!");
                 UsernameTextBox.Clear();
                 PasswordTextBox.Clear();
             }
+        }
+
+        private void LoginPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -53,11 +53,15 @@ namespace GUI
         private void AccountButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
+            new Account().Show();
+            this.Hide();
         }
 
         private void ClientListButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
+            new ClientList().Show();
+            this.Hide();
         }
 
         private void IdeasButton_Click(object sender, EventArgs e)
@@ -68,6 +72,8 @@ namespace GUI
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
+            new Regestration().Show();
+            this.Hide();
         }
         
         private void ideaButton()

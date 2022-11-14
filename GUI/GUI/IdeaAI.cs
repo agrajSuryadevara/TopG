@@ -20,7 +20,6 @@ namespace GUI
         public IdeaAI()
         {
             InitializeComponent();
-            InitializeComponent();
             ButtonPanel = new Panel();
             ButtonPanel.Size = new Size(5, 60);
             LeftPanel.Controls.Add(ButtonPanel);

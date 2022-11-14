@@ -20,7 +20,6 @@ namespace GUI
         public AccountAI()
         {
             InitializeComponent();
-            InitializeComponent();
             ButtonPanel = new Panel();
             ButtonPanel.Size = new Size(5, 60);
             LeftPanel.Controls.Add(ButtonPanel);
