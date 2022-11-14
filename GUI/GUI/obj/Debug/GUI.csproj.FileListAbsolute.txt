@@ -69,3 +69,6 @@ C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Regest
 C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Ideas.resources
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Ideas.resources
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Regestration.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Account.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.AuthorIdea.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.ClientList.resources

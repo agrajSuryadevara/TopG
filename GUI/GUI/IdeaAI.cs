@@ -10,21 +10,22 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class RM : Form
+    public partial class IdeaAI : Form
     {
         //
         //Fields
         //
         private Button CurrentButton;
         private Panel ButtonPanel;
-        public RM()
+        public IdeaAI()
         {
+            InitializeComponent();
             InitializeComponent();
             ButtonPanel = new Panel();
             ButtonPanel.Size = new Size(5, 60);
             LeftPanel.Controls.Add(ButtonPanel);
+            ideaAI();
         }
-
         private void ButtonActivated(object senderBtn, Color color)
         {
             if (senderBtn != null)
@@ -52,29 +53,31 @@ namespace GUI
         private void AccountButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new Account().Show();
+            new AccountAI().Show();
             this.Hide();
         }
 
-        private void ClientListButton_Click(object sender, EventArgs e)
+        private void AddIdeaButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new ClientList().Show();
+            new AddIdea().Show();
             this.Hide();
         }
 
         private void IdeasButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new Ideas().Show();
-            this.Hide();
         }
-
-        private void RegistrationButton_Click(object sender, EventArgs e)
+        private void ideaAI()
         {
-            ButtonActivated(sender, Color.AliceBlue);
-            new Regestration().Show();
-            this.Hide();
+            //Button
+            CurrentButton = IdeasButton;
+            CurrentButton.TextAlign = ContentAlignment.MiddleRight;
+            //Border
+            ButtonPanel.BackColor = Color.AliceBlue;
+            ButtonPanel.Location = new Point(0, CurrentButton.Location.Y);
+            ButtonPanel.Visible = true;
+            ButtonPanel.BringToFront();
         }
     }
 }

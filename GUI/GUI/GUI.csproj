@@ -48,7 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
@@ -73,6 +75,30 @@
     </Compile>
     <Compile Include="Account.Designer.cs">
       <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuthorIdeasPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorIdeasPage.Designer.cs">
+      <DependentUpon>AuthorIdeasPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddIdea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddIdea.Designer.cs">
+      <DependentUpon>AddIdea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountAI.Designer.cs">
+      <DependentUpon>AccountAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdeaAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdeaAI.Designer.cs">
+      <DependentUpon>IdeaAI.cs</DependentUpon>
     </Compile>
     <Compile Include="Ideas.cs">
       <SubType>Form</SubType>
@@ -103,8 +129,20 @@
     <EmbeddedResource Include="Account.resx">
       <DependentUpon>Account.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AccountAI.resx">
+      <DependentUpon>AccountAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddIdea.resx">
+      <DependentUpon>AddIdea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthorIdeasPage.resx">
+      <DependentUpon>AuthorIdeasPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ClientList.resx">
       <DependentUpon>ClientList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdeaAI.resx">
+      <DependentUpon>IdeaAI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ideas.resx">
       <DependentUpon>Ideas.cs</DependentUpon>

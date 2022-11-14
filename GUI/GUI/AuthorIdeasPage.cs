@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class RM : Form
+    public partial class AuthorIdea : Form
     {
         //
         //Fields
         //
         private Button CurrentButton;
         private Panel ButtonPanel;
-        public RM()
+        public AuthorIdea()
         {
             InitializeComponent();
             ButtonPanel = new Panel();
@@ -52,29 +52,23 @@ namespace GUI
         private void AccountButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new Account().Show();
+            new AccountAI().Show();
             this.Hide();
         }
 
-        private void ClientListButton_Click(object sender, EventArgs e)
+        private void AddIdeaButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new ClientList().Show();
+            new AddIdea().Show();
             this.Hide();
         }
 
         private void IdeasButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new Ideas().Show();
+            new IdeaAI().Show();
             this.Hide();
         }
 
-        private void RegistrationButton_Click(object sender, EventArgs e)
-        {
-            ButtonActivated(sender, Color.AliceBlue);
-            new Regestration().Show();
-            this.Hide();
-        }
     }
 }
