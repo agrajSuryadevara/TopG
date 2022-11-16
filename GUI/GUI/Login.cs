@@ -44,9 +44,9 @@ namespace GUI
                 this.Hide();
             }
 
-            if (UsernameTextBox.Text == "AI" && PasswordTextBox.Text == "demo")
+            else if (UsernameTextBox.Text == "AI" && PasswordTextBox.Text == "demo")
             {
-                new IdeaAI().Show();
+                new AuthorIdea().Show();
                 this.Hide();
             }
 

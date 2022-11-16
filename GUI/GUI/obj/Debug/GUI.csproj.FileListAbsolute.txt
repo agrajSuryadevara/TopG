@@ -93,3 +93,6 @@ C:\Users\thana\Source\Repos\heydonttouchmyfood\TopG2\GUI\GUI\obj\Debug\GUI.cspro
 C:\Users\thana\Source\Repos\heydonttouchmyfood\TopG2\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 C:\Users\thana\Source\Repos\heydonttouchmyfood\TopG2\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\thana\Source\Repos\heydonttouchmyfood\TopG2\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.AccountAI.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.AddIdea.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.IdeaAI.resources

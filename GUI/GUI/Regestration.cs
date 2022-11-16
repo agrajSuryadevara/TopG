@@ -51,27 +51,6 @@ namespace GUI
             }
         }
 
-        private void AccountButton_Click(object sender, EventArgs e)
-        {
-            ButtonActivated(sender, Color.AliceBlue);
-            new Account().Show();
-            this.Hide();
-        }
-
-        private void ClientListButton_Click(object sender, EventArgs e)
-        {
-            ButtonActivated(sender, Color.AliceBlue);
-            new ClientList().Show();
-            this.Hide();
-        }
-
-        private void IdeasButton_Click(object sender, EventArgs e)
-        {
-            ButtonActivated(sender, Color.AliceBlue);
-            new Ideas().Show();
-            this.Hide();
-        }
-
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
@@ -87,6 +66,27 @@ namespace GUI
             ButtonPanel.Location = new Point(0, CurrentButton.Location.Y);
             ButtonPanel.Visible = true;
             ButtonPanel.BringToFront();
+        }
+
+        private void AccountButton_Click_1(object sender, EventArgs e)
+        {
+            ButtonActivated(sender, Color.AliceBlue);
+            new Account().Show();
+            this.Hide();
+        }
+
+        private void ClientListButton_Click_1(object sender, EventArgs e)
+        {
+            ButtonActivated(sender, Color.AliceBlue);
+            new ClientList().Show();
+            this.Hide();
+        }
+
+        private void IdeasButton_Click_1(object sender, EventArgs e)
+        {
+            ButtonActivated(sender, Color.AliceBlue);
+            new Ideas().Show();
+            this.Hide();
         }
     }
 }
