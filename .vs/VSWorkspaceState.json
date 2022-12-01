@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\GUI",
-    "\\GUI\\GUI"
+    ""
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\GUI\\GUI\\Properties",
+=======
+>>>>>>> c2f7769f1c33f6af197aeb7239f38e70c8614b5a
   "PreviewInSolutionExplorer": false
 }
