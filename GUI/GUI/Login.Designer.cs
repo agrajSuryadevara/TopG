@@ -45,9 +45,9 @@
             this.LoginPanel.Controls.Add(this.UsernameTextBox);
             this.LoginPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LoginPanel.Location = new System.Drawing.Point(0, 0);
-            this.LoginPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginPanel.Name = "LoginPanel";
-            this.LoginPanel.Size = new System.Drawing.Size(948, 578);
+            this.LoginPanel.Size = new System.Drawing.Size(1264, 711);
             this.LoginPanel.TabIndex = 2;
             this.LoginPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.LoginPanel_Paint);
             // 
@@ -56,10 +56,10 @@
             this.ForgotPasswordButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
             this.ForgotPasswordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ForgotPasswordButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForgotPasswordButton.Location = new System.Drawing.Point(410, 291);
-            this.ForgotPasswordButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ForgotPasswordButton.Location = new System.Drawing.Point(547, 358);
+            this.ForgotPasswordButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ForgotPasswordButton.Name = "ForgotPasswordButton";
-            this.ForgotPasswordButton.Size = new System.Drawing.Size(130, 24);
+            this.ForgotPasswordButton.Size = new System.Drawing.Size(173, 30);
             this.ForgotPasswordButton.TabIndex = 6;
             this.ForgotPasswordButton.Text = "forgot my password";
             this.ForgotPasswordButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -67,10 +67,10 @@
             // 
             // LoginButton
             // 
-            this.LoginButton.Location = new System.Drawing.Point(512, 408);
-            this.LoginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginButton.Location = new System.Drawing.Point(683, 502);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(99, 32);
+            this.LoginButton.Size = new System.Drawing.Size(132, 39);
             this.LoginButton.TabIndex = 5;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
@@ -80,11 +80,11 @@
             // 
             this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.PasswordTextBox.Location = new System.Drawing.Point(410, 257);
-            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordTextBox.Location = new System.Drawing.Point(547, 316);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(294, 30);
+            this.PasswordTextBox.Size = new System.Drawing.Size(391, 36);
             this.PasswordTextBox.TabIndex = 4;
             this.PasswordTextBox.Text = "Password";
             this.PasswordTextBox.TextChanged += new System.EventHandler(this.PasswordTextBox_TextChanged);
@@ -94,21 +94,21 @@
             this.UsernameTextBox.BackColor = System.Drawing.SystemColors.Window;
             this.UsernameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameTextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.UsernameTextBox.Location = new System.Drawing.Point(410, 162);
-            this.UsernameTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UsernameTextBox.Location = new System.Drawing.Point(547, 199);
+            this.UsernameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UsernameTextBox.Name = "UsernameTextBox";
-            this.UsernameTextBox.Size = new System.Drawing.Size(294, 30);
+            this.UsernameTextBox.Size = new System.Drawing.Size(391, 36);
             this.UsernameTextBox.TabIndex = 1;
             this.UsernameTextBox.Text = "Username/Email";
             this.UsernameTextBox.TextChanged += new System.EventHandler(this.UsernameTextBox_TextChanged);
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(948, 578);
+            this.ClientSize = new System.Drawing.Size(1264, 711);
             this.Controls.Add(this.LoginPanel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.Text = "Top G";
             this.LoginPanel.ResumeLayout(false);
