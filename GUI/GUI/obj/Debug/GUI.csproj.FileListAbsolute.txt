@@ -59,8 +59,6 @@ C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.c
 C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\agraj\Source\Repos\TopG\GUI\GUI\obj\Debug\GUI.pdb
-C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1.mdf
-C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1_log.ldf
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Login.resources
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.RM.resources
 C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1.mdf
