@@ -118,6 +118,7 @@
     <Compile Include="Regestration.Designer.cs">
       <DependentUpon>Regestration.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBConnection.cs" />
     <Compile Include="RMPage.cs">
       <SubType>Form</SubType>
     </Compile>

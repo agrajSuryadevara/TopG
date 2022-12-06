@@ -22,7 +22,7 @@ namespace GUI
         {
             try
             {
-                UsernameTextBox.ForeColor = Color.Black;
+                UserEmailTextBox.ForeColor = Color.Black;
             }
             catch { }
         }
@@ -38,24 +38,29 @@ namespace GUI
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            if (UsernameTextBox.Text == "RM" && PasswordTextBox.Text == "demo")
+            DBConnection dbConn = DBConnection.getInstanceOfDBConnection();
+            String email, password, role;
+
+            email = UserEmailTextBox.Text;
+            password = PasswordTextBox.Text;
+
+            role = dbConn.validateLogin(email, password);
+
+            if (role == "RM")
             {
-                new RM().Show();
+                RM rm = new RM();
+                rm.Show();
                 this.Hide();
             }
-
-            else if (UsernameTextBox.Text == "AI" && PasswordTextBox.Text == "demo")
+            else if(role == "AI")
             {
-                new AuthorIdea().Show();
+                AuthorIdea ai = new AuthorIdea();
+                ai.Show();
                 this.Hide();
             }
-
-
             else
             {
-                MessageBox.Show("Your credentials combination are wrong!");
-                UsernameTextBox.Clear();
-                PasswordTextBox.Clear();
+                MessageBox.Show("Your credentials don't match. \n Email or Password are wrong");
             }
         }
 
