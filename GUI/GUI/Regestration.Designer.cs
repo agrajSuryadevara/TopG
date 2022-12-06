@@ -253,7 +253,7 @@
             this.ClientSize = new System.Drawing.Size(1264, 711);
             this.Controls.Add(this.LeftPanel);
             this.Controls.Add(this.TopPanel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Regestration";
             this.Text = "Regestration";
             this.LeftPanel.ResumeLayout(false);
