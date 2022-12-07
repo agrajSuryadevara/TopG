@@ -84,7 +84,7 @@ namespace GUI
         private void RegistrationButton_Click_1(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new Registration().Show();
+            new Regestration().Show();
             this.Hide();
         }
     }

@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.LoginPanel = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.ForgotPasswordButton = new System.Windows.Forms.Button();
             this.LoginButton = new System.Windows.Forms.Button();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
             this.UserEmailTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.LoginPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // LoginPanel
             // 
-            this.LoginPanel.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.LoginPanel.BackColor = System.Drawing.Color.LightSlateGray;
             this.LoginPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LoginPanel.CausesValidation = false;
             this.LoginPanel.Controls.Add(this.label2);
@@ -57,31 +57,9 @@
             this.LoginPanel.TabIndex = 2;
             this.LoginPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.LoginPanel_Paint);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(494, 272);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 31);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Password";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(493, 190);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 31);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Email";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // ForgotPasswordButton
             // 
-            this.ForgotPasswordButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ForgotPasswordButton.BackColor = System.Drawing.Color.LightSlateGray;
             this.ForgotPasswordButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ForgotPasswordButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForgotPasswordButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
@@ -93,47 +71,67 @@
             this.ForgotPasswordButton.Name = "ForgotPasswordButton";
             this.ForgotPasswordButton.Size = new System.Drawing.Size(195, 30);
             this.ForgotPasswordButton.TabIndex = 6;
-            this.ForgotPasswordButton.Text = "Forgot my password";
+            this.ForgotPasswordButton.Text = "forgot my password";
             this.ForgotPasswordButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ForgotPasswordButton.UseVisualStyleBackColor = false;
             this.ForgotPasswordButton.Click += new System.EventHandler(this.ForgotPasswordButton_Click);
             // 
             // LoginButton
             // 
-            this.LoginButton.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.LoginButton.Location = new System.Drawing.Point(632, 393);
             this.LoginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(132, 39);
             this.LoginButton.TabIndex = 5;
             this.LoginButton.Text = "Login";
-            this.LoginButton.UseVisualStyleBackColor = false;
+            this.LoginButton.UseVisualStyleBackColor = true;
             this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.PasswordTextBox.Location = new System.Drawing.Point(496, 305);
             this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(391, 36);
+            this.PasswordTextBox.Size = new System.Drawing.Size(391, 30);
             this.PasswordTextBox.TabIndex = 4;
             this.PasswordTextBox.TextChanged += new System.EventHandler(this.PasswordTextBox_TextChanged);
             // 
             // UserEmailTextBox
             // 
-            this.UserEmailTextBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.UserEmailTextBox.BackColor = System.Drawing.SystemColors.Window;
             this.UserEmailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserEmailTextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.UserEmailTextBox.Location = new System.Drawing.Point(496, 223);
             this.UserEmailTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserEmailTextBox.Name = "UserEmailTextBox";
-            this.UserEmailTextBox.Size = new System.Drawing.Size(391, 36);
+            this.UserEmailTextBox.Size = new System.Drawing.Size(391, 30);
             this.UserEmailTextBox.TabIndex = 1;
             this.UserEmailTextBox.TextChanged += new System.EventHandler(this.UsernameTextBox_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(493, 190);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 25);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "E-Mail";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(494, 272);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 25);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Password";
             // 
             // Login
             // 

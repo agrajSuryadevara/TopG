@@ -73,7 +73,7 @@ namespace GUI
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
             ButtonActivated(sender, Color.AliceBlue);
-            new Registration().Show();
+            new Regestration().Show();
             this.Hide();
         }
 
@@ -87,21 +87,6 @@ namespace GUI
             ButtonPanel.Location = new Point(0, CurrentButton.Location.Y);
             ButtonPanel.Visible = true;
             ButtonPanel.BringToFront();
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Account_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
