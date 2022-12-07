@@ -117,3 +117,6 @@ D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\TopG\GUI\GUI\obj\Debug\GUI.
 D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\TopG\GUI\GUI\obj\Debug\GUI.exe
 D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\TopG\GUI\GUI\obj\Debug\GUI.pdb
 D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\TopG\GUI\GUI\obj\Debug\GUI.forgotPassword.resources
+D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\TopG\GUI\GUI\bin\Debug\System.Data.SqlClient.dll
+D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\TopG\GUI\GUI\bin\Debug\System.Data.SqlClient.xml
+D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\TopG\GUI\GUI\obj\Debug\GUI.csproj.CopyComplete

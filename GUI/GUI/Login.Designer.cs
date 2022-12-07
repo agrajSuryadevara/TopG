@@ -41,6 +41,7 @@
             // LoginPanel
             // 
             this.LoginPanel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.LoginPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LoginPanel.CausesValidation = false;
             this.LoginPanel.Controls.Add(this.label2);
             this.LoginPanel.Controls.Add(this.label1);
@@ -113,6 +114,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(493, 190);
             this.label1.Name = "label1";

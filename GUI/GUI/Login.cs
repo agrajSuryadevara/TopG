@@ -73,7 +73,6 @@ namespace GUI
         {
 
         }
-
         private void ForgotPasswordButton_Click(object sender, EventArgs e)
         {
             forgotPassword newForm = new forgotPassword();
