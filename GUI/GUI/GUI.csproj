@@ -121,11 +121,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Regestration.cs">
+    <Compile Include="Registration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Regestration.Designer.cs">
-      <DependentUpon>Regestration.cs</DependentUpon>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
     <Compile Include="DBConnection.cs" />
     <Compile Include="RMPage.cs">
@@ -172,8 +172,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Regestration.resx">
-      <DependentUpon>Regestration.cs</DependentUpon>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RMPage.resx">
       <DependentUpon>RMPage.cs</DependentUpon>
@@ -203,15 +203,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Database2.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database2_log.ldf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <DependentUpon>Database2.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

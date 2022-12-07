@@ -13,14 +13,14 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Regestration : Form
+    public partial class Registration : Form
     {
         //
         //Fields
         //
         private Button CurrentButton;
         private Panel ButtonPanel;
-        public Regestration()
+        public Registration()
         {
             InitializeComponent();
             ButtonPanel = new Panel();

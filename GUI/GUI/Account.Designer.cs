@@ -33,7 +33,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SearchPanel = new System.Windows.Forms.Panel();
             this.SearchButton = new System.Windows.Forms.Button();
-            this.SearchBox = new System.Windows.Forms.TextBox();
             this.LeftPanel = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -43,6 +42,14 @@
             this.IdeasButton = new System.Windows.Forms.Button();
             this.ClientListButton = new System.Windows.Forms.Button();
             this.AccountButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.email = new System.Windows.Forms.Label();
+            this.phnumber = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SearchBox = new System.Windows.Forms.TextBox();
             this.TopPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SearchPanel.SuspendLayout();
@@ -56,7 +63,6 @@
             // TopPanel
             // 
             this.TopPanel.BackColor = System.Drawing.Color.SlateGray;
-            this.TopPanel.Controls.Add(this.pictureBox1);
             this.TopPanel.Controls.Add(this.SearchPanel);
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
@@ -68,9 +74,9 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(231, 155);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(135, 135);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -78,10 +84,10 @@
             // SearchPanel
             // 
             this.SearchPanel.AutoScroll = true;
-            this.SearchPanel.Controls.Add(this.SearchButton);
             this.SearchPanel.Controls.Add(this.SearchBox);
+            this.SearchPanel.Controls.Add(this.SearchButton);
             this.SearchPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SearchPanel.Location = new System.Drawing.Point(108, 3);
+            this.SearchPanel.Location = new System.Drawing.Point(3, 3);
             this.SearchPanel.Name = "SearchPanel";
             this.SearchPanel.Size = new System.Drawing.Size(1144, 79);
             this.SearchPanel.TabIndex = 3;
@@ -96,17 +102,6 @@
             this.SearchButton.Size = new System.Drawing.Size(44, 44);
             this.SearchButton.TabIndex = 2;
             this.SearchButton.UseVisualStyleBackColor = true;
-            // 
-            // SearchBox
-            // 
-            this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.SearchBox.Location = new System.Drawing.Point(447, 28);
-            this.SearchBox.Name = "SearchBox";
-            this.SearchBox.Size = new System.Drawing.Size(250, 22);
-            this.SearchBox.TabIndex = 3;
-            this.SearchBox.Text = "Search";
-            this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LeftPanel
             // 
@@ -232,16 +227,112 @@
             this.AccountButton.UseVisualStyleBackColor = true;
             this.AccountButton.Click += new System.EventHandler(this.AccountButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(227, 101);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(388, 170);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(275, 29);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Name: Bruno Fernandez";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(225, 95);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(173, 36);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "My Account";
+            // 
+            // email
+            // 
+            this.email.AutoSize = true;
+            this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.email.Location = new System.Drawing.Point(388, 351);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(259, 29);
+            this.email.TabIndex = 13;
+            this.email.Text = "Email: @company.com";
+            // 
+            // phnumber
+            // 
+            this.phnumber.AutoSize = true;
+            this.phnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.phnumber.Location = new System.Drawing.Point(388, 288);
+            this.phnumber.Name = "phnumber";
+            this.phnumber.Size = new System.Drawing.Size(188, 29);
+            this.phnumber.TabIndex = 14;
+            this.phnumber.Text = "Phone Number: ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(388, 230);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(370, 29);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Role: Relationship Manager (RM)";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Window;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.BorderSize = 10;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.button1.Location = new System.Drawing.Point(1151, 528);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 38);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Edit";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // SearchBox
+            // 
+            this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.SearchBox.Location = new System.Drawing.Point(516, 21);
+            this.SearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SearchBox.Name = "SearchBox";
+            this.SearchBox.Size = new System.Drawing.Size(267, 30);
+            this.SearchBox.TabIndex = 4;
+            this.SearchBox.Text = "Search";
+            this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1264, 711);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.phnumber);
+            this.Controls.Add(this.email);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.LeftPanel);
             this.Controls.Add(this.TopPanel);
             this.Name = "Account";
             this.Text = "Top G";
+            this.Load += new System.EventHandler(this.Account_Load);
             this.TopPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.SearchPanel.ResumeLayout(false);
@@ -252,6 +343,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RegistrationPicture)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -265,11 +357,18 @@
         private System.Windows.Forms.Button AccountButton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel SearchPanel;
-        private System.Windows.Forms.TextBox SearchBox;
         private System.Windows.Forms.PictureBox RegistrationPicture;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button SearchButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label email;
+        private System.Windows.Forms.Label phnumber;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox SearchBox;
     }
 }
