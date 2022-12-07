@@ -60,17 +60,19 @@
             this.TopPanel.Controls.Add(this.SearchPanel);
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
+            this.TopPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TopPanel.Name = "TopPanel";
-            this.TopPanel.Size = new System.Drawing.Size(1264, 80);
+            this.TopPanel.Size = new System.Drawing.Size(948, 65);
             this.TopPanel.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(74, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -78,12 +80,14 @@
             // SearchPanel
             // 
             this.SearchPanel.AutoScroll = true;
+            this.SearchPanel.BackColor = System.Drawing.Color.Black;
             this.SearchPanel.Controls.Add(this.SearchButton);
             this.SearchPanel.Controls.Add(this.SearchBox);
             this.SearchPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SearchPanel.Location = new System.Drawing.Point(108, 3);
+            this.SearchPanel.Location = new System.Drawing.Point(80, 2);
+            this.SearchPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SearchPanel.Name = "SearchPanel";
-            this.SearchPanel.Size = new System.Drawing.Size(1144, 79);
+            this.SearchPanel.Size = new System.Drawing.Size(858, 64);
             this.SearchPanel.TabIndex = 3;
             // 
             // SearchButton
@@ -91,9 +95,10 @@
             this.SearchButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SearchButton.FlatAppearance.BorderSize = 0;
             this.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SearchButton.Location = new System.Drawing.Point(346, 35);
+            this.SearchButton.Location = new System.Drawing.Point(260, 28);
+            this.SearchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(44, 44);
+            this.SearchButton.Size = new System.Drawing.Size(33, 36);
             this.SearchButton.TabIndex = 2;
             this.SearchButton.UseVisualStyleBackColor = true;
             // 
@@ -101,16 +106,17 @@
             // 
             this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.SearchBox.Location = new System.Drawing.Point(447, 28);
+            this.SearchBox.Location = new System.Drawing.Point(335, 23);
+            this.SearchBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SearchBox.Name = "SearchBox";
-            this.SearchBox.Size = new System.Drawing.Size(250, 22);
+            this.SearchBox.Size = new System.Drawing.Size(188, 20);
             this.SearchBox.TabIndex = 3;
             this.SearchBox.Text = "Search";
             this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LeftPanel
             // 
-            this.LeftPanel.BackColor = System.Drawing.Color.SlateGray;
+            this.LeftPanel.BackColor = System.Drawing.Color.Black;
             this.LeftPanel.Controls.Add(this.pictureBox4);
             this.LeftPanel.Controls.Add(this.pictureBox3);
             this.LeftPanel.Controls.Add(this.pictureBox2);
@@ -120,18 +126,20 @@
             this.LeftPanel.Controls.Add(this.ClientListButton);
             this.LeftPanel.Controls.Add(this.AccountButton);
             this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftPanel.Location = new System.Drawing.Point(0, 80);
+            this.LeftPanel.Location = new System.Drawing.Point(0, 65);
+            this.LeftPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LeftPanel.Name = "LeftPanel";
-            this.LeftPanel.Size = new System.Drawing.Size(209, 631);
+            this.LeftPanel.Size = new System.Drawing.Size(157, 513);
             this.LeftPanel.TabIndex = 1;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(20, 166);
+            this.pictureBox4.Location = new System.Drawing.Point(15, 135);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(44, 44);
+            this.pictureBox4.Size = new System.Drawing.Size(33, 36);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
@@ -139,9 +147,10 @@
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(20, 90);
+            this.pictureBox3.Location = new System.Drawing.Point(15, 73);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 44);
+            this.pictureBox3.Size = new System.Drawing.Size(33, 36);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
@@ -149,9 +158,10 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 15);
+            this.pictureBox2.Location = new System.Drawing.Point(15, 12);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 44);
+            this.pictureBox2.Size = new System.Drawing.Size(33, 36);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
@@ -159,9 +169,10 @@
             // 
             this.RegistrationPicture.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegistrationPicture.BackgroundImage")));
             this.RegistrationPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.RegistrationPicture.Location = new System.Drawing.Point(20, 240);
+            this.RegistrationPicture.Location = new System.Drawing.Point(15, 195);
+            this.RegistrationPicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RegistrationPicture.Name = "RegistrationPicture";
-            this.RegistrationPicture.Size = new System.Drawing.Size(44, 44);
+            this.RegistrationPicture.Size = new System.Drawing.Size(33, 36);
             this.RegistrationPicture.TabIndex = 2;
             this.RegistrationPicture.TabStop = false;
             // 
@@ -174,10 +185,11 @@
             this.RegistrationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.RegistrationButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.RegistrationButton.Location = new System.Drawing.Point(0, 225);
+            this.RegistrationButton.Location = new System.Drawing.Point(0, 183);
+            this.RegistrationButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RegistrationButton.Name = "RegistrationButton";
             this.RegistrationButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.RegistrationButton.Size = new System.Drawing.Size(209, 75);
+            this.RegistrationButton.Size = new System.Drawing.Size(157, 61);
             this.RegistrationButton.TabIndex = 2;
             this.RegistrationButton.Text = "   Registration";
             this.RegistrationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -192,9 +204,10 @@
             this.IdeasButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IdeasButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.IdeasButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.IdeasButton.Location = new System.Drawing.Point(0, 150);
+            this.IdeasButton.Location = new System.Drawing.Point(0, 122);
+            this.IdeasButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.IdeasButton.Name = "IdeasButton";
-            this.IdeasButton.Size = new System.Drawing.Size(209, 75);
+            this.IdeasButton.Size = new System.Drawing.Size(157, 61);
             this.IdeasButton.TabIndex = 2;
             this.IdeasButton.Text = "Ideas";
             this.IdeasButton.UseVisualStyleBackColor = true;
@@ -208,9 +221,10 @@
             this.ClientListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClientListButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.ClientListButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ClientListButton.Location = new System.Drawing.Point(0, 75);
+            this.ClientListButton.Location = new System.Drawing.Point(0, 61);
+            this.ClientListButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ClientListButton.Name = "ClientListButton";
-            this.ClientListButton.Size = new System.Drawing.Size(209, 75);
+            this.ClientListButton.Size = new System.Drawing.Size(157, 61);
             this.ClientListButton.TabIndex = 2;
             this.ClientListButton.Text = "Client List";
             this.ClientListButton.UseVisualStyleBackColor = true;
@@ -225,8 +239,9 @@
             this.AccountButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.AccountButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AccountButton.Location = new System.Drawing.Point(0, 0);
+            this.AccountButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AccountButton.Name = "AccountButton";
-            this.AccountButton.Size = new System.Drawing.Size(209, 75);
+            this.AccountButton.Size = new System.Drawing.Size(157, 61);
             this.AccountButton.TabIndex = 2;
             this.AccountButton.Text = "Account";
             this.AccountButton.UseVisualStyleBackColor = true;
@@ -234,12 +249,15 @@
             // 
             // Account
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1264, 711);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(948, 578);
             this.Controls.Add(this.LeftPanel);
             this.Controls.Add(this.TopPanel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Account";
             this.Text = "Top G";
             this.TopPanel.ResumeLayout(false);

@@ -91,3 +91,8 @@ namespace GUI
 
     }
 }
+
+
+
+
+    //string w = client.Tables[0]Columns[0]["order_id"]ToString();
