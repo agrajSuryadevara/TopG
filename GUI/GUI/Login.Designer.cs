@@ -40,7 +40,7 @@
             // 
             // LoginPanel
             // 
-            this.LoginPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.LoginPanel.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.LoginPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LoginPanel.CausesValidation = false;
             this.LoginPanel.Controls.Add(this.label2);
@@ -81,7 +81,7 @@
             // 
             // ForgotPasswordButton
             // 
-            this.ForgotPasswordButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ForgotPasswordButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ForgotPasswordButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ForgotPasswordButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForgotPasswordButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
@@ -100,17 +100,19 @@
             // 
             // LoginButton
             // 
+            this.LoginButton.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.LoginButton.Location = new System.Drawing.Point(632, 393);
             this.LoginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(132, 39);
             this.LoginButton.TabIndex = 5;
             this.LoginButton.Text = "Login";
-            this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.UseVisualStyleBackColor = false;
             this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // PasswordTextBox
             // 
+            this.PasswordTextBox.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.PasswordTextBox.Location = new System.Drawing.Point(496, 305);
@@ -123,7 +125,7 @@
             // 
             // UserEmailTextBox
             // 
-            this.UserEmailTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.UserEmailTextBox.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.UserEmailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserEmailTextBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.UserEmailTextBox.Location = new System.Drawing.Point(496, 223);

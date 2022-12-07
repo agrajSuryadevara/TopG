@@ -39,18 +39,18 @@
             this.ClientListButton = new System.Windows.Forms.Button();
             this.AccountButton = new System.Windows.Forms.Button();
             this.TopPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SearchPanel = new System.Windows.Forms.Panel();
-            this.SearchButton = new System.Windows.Forms.Button();
             this.SearchBox = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.SearchButton = new System.Windows.Forms.Button();
             this.LeftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RegistrationPicture)).BeginInit();
             this.TopPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SearchPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // LeftPanel
@@ -188,7 +188,6 @@
             // TopPanel
             // 
             this.TopPanel.BackColor = System.Drawing.Color.SlateGray;
-            this.TopPanel.Controls.Add(this.pictureBox1);
             this.TopPanel.Controls.Add(this.SearchPanel);
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
@@ -197,29 +196,44 @@
             this.TopPanel.Size = new System.Drawing.Size(1264, 80);
             this.TopPanel.TabIndex = 4;
             // 
+            // SearchPanel
+            // 
+            this.SearchPanel.AutoScroll = true;
+            this.SearchPanel.Controls.Add(this.SearchBox);
+            this.SearchPanel.Controls.Add(this.pictureBox1);
+            this.SearchPanel.Controls.Add(this.SearchButton);
+            this.SearchPanel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.SearchPanel.Location = new System.Drawing.Point(3, 2);
+            this.SearchPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SearchPanel.Name = "SearchPanel";
+            this.SearchPanel.Size = new System.Drawing.Size(1144, 79);
+            this.SearchPanel.TabIndex = 3;
+            // 
+            // SearchBox
+            // 
+            this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SearchBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.SearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.SearchBox.Location = new System.Drawing.Point(516, 21);
+            this.SearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SearchBox.Name = "SearchBox";
+            this.SearchBox.Size = new System.Drawing.Size(267, 30);
+            this.SearchBox.TabIndex = 5;
+            this.SearchBox.Text = "Search";
+            this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(-3, -2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(99, 79);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // SearchPanel
-            // 
-            this.SearchPanel.AutoScroll = true;
-            this.SearchPanel.Controls.Add(this.SearchButton);
-            this.SearchPanel.Controls.Add(this.SearchBox);
-            this.SearchPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SearchPanel.Location = new System.Drawing.Point(108, 2);
-            this.SearchPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.SearchPanel.Name = "SearchPanel";
-            this.SearchPanel.Size = new System.Drawing.Size(1144, 79);
-            this.SearchPanel.TabIndex = 3;
             // 
             // SearchButton
             // 
@@ -233,26 +247,15 @@
             this.SearchButton.TabIndex = 2;
             this.SearchButton.UseVisualStyleBackColor = true;
             // 
-            // SearchBox
-            // 
-            this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.SearchBox.Location = new System.Drawing.Point(447, 28);
-            this.SearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.SearchBox.Name = "SearchBox";
-            this.SearchBox.Size = new System.Drawing.Size(249, 22);
-            this.SearchBox.TabIndex = 3;
-            this.SearchBox.Text = "Search";
-            this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Ideas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1264, 711);
             this.Controls.Add(this.LeftPanel);
             this.Controls.Add(this.TopPanel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ideas";
             this.Text = "Ideas";
             this.LeftPanel.ResumeLayout(false);
@@ -261,9 +264,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RegistrationPicture)).EndInit();
             this.TopPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.SearchPanel.ResumeLayout(false);
             this.SearchPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

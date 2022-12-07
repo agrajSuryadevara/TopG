@@ -30,9 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Account));
             this.TopPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SearchPanel = new System.Windows.Forms.Panel();
+            this.SearchBox = new System.Windows.Forms.TextBox();
             this.SearchButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LeftPanel = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -49,10 +50,9 @@
             this.phnumber = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.SearchBox = new System.Windows.Forms.TextBox();
             this.TopPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SearchPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.LeftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -70,17 +70,6 @@
             this.TopPanel.Size = new System.Drawing.Size(1264, 80);
             this.TopPanel.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(231, 155);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 135);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // SearchPanel
             // 
             this.SearchPanel.AutoScroll = true;
@@ -92,6 +81,20 @@
             this.SearchPanel.Size = new System.Drawing.Size(1144, 79);
             this.SearchPanel.TabIndex = 3;
             // 
+            // SearchBox
+            // 
+            this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SearchBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.SearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.SearchBox.Location = new System.Drawing.Point(516, 21);
+            this.SearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SearchBox.Name = "SearchBox";
+            this.SearchBox.Size = new System.Drawing.Size(267, 30);
+            this.SearchBox.TabIndex = 4;
+            this.SearchBox.Text = "Search";
+            this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // SearchButton
             // 
             this.SearchButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -102,6 +105,18 @@
             this.SearchButton.Size = new System.Drawing.Size(44, 44);
             this.SearchButton.TabIndex = 2;
             this.SearchButton.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.SlateGray;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(231, 170);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(135, 135);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // LeftPanel
             // 
@@ -142,6 +157,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Location = new System.Drawing.Point(20, 15);
@@ -289,7 +305,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Window;
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.BorderSize = 10;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -301,24 +317,11 @@
             this.button1.Text = "Edit";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // SearchBox
-            // 
-            this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.SearchBox.Location = new System.Drawing.Point(516, 21);
-            this.SearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.SearchBox.Name = "SearchBox";
-            this.SearchBox.Size = new System.Drawing.Size(267, 30);
-            this.SearchBox.TabIndex = 4;
-            this.SearchBox.Text = "Search";
-            this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1264, 711);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
@@ -334,9 +337,9 @@
             this.Text = "Top G";
             this.Load += new System.EventHandler(this.Account_Load);
             this.TopPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.SearchPanel.ResumeLayout(false);
             this.SearchPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.LeftPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
