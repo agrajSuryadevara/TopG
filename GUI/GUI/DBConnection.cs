@@ -65,10 +65,29 @@ namespace GUI
 
                 //send sql query to the database
                 SqlDataAdapter adapter = new SqlDataAdapter(sqlQuery, connToDB);
-
                 adapter.Fill(dataset);
             }
             return dataset;
         }
+
+        public void SaveToDB(string sqlQuery, string Name, string Surname, string Portfolio, string EMail)
+        {
+            using (SqlConnection connToDB = new SqlConnection(dBConnectionString))
+            {
+                connToDB.Open();
+                SqlCommand sqlCommand = new SqlCommand(sqlQuery, connToDB);
+                sqlCommand.CommandType = CommandType.Text;
+                sqlCommand.Parameters.Add(new SqlParameter("Name", Name));
+                sqlCommand.Parameters.Add(new SqlParameter("Surname", Surname));
+                sqlCommand.Parameters.Add(new SqlParameter("Portfolio", Portfolio));
+                sqlCommand.Parameters.Add(new SqlParameter("EMail", EMail));
+                //sqlCommand.Parameters.Add(new SqlParameter("Phonenumber", Phonenumber));
+               // sqlCommand.Parameters.Add(new SqlParameter("Riskpreference", Riskpreference));
+
+                sqlCommand.ExecuteNonQuery();
+
+            }
+        }
+
     }
 }
