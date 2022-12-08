@@ -89,6 +89,28 @@ namespace GUI
             }
         }
 
+        public DataTable searchData(string sqlQuery)
+        {
+            DataTable dt = new DataTable();
+
+            using(SqlConnection connToDB = new SqlConnection(dBConnectionString))
+            {
+                connToDB.Open();
+
+                SqlCommand com = connToDB.CreateCommand();
+
+                com.CommandType = CommandType.Text;
+                com.CommandText = sqlQuery;
+
+                com.ExecuteNonQuery();
+
+                SqlDataAdapter sda = new SqlDataAdapter(com);
+                sda.Fill(dt);
+                
+            }
+
+            return dt;
+        }
     }
 }
 

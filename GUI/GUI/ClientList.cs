@@ -26,6 +26,34 @@ namespace GUI
             clientList();
         }
 
+        private void displayBtt_Click_1(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Client";
+            DBConnection dbConn = DBConnection.getInstanceOfDBConnection();
+            DataSet dsClient = dbConn.getDataSet(query);
+            dvgClient.DataSource = dsClient.Tables[0];
+        }
+
+        private void searchBtt_Click_1(object sender, EventArgs e)
+        {
+            string name, surname, portfolio, phone, email, risk, region, country, query;
+
+            DBConnection dbConn = DBConnection.getInstanceOfDBConnection();
+
+            name = nameTxt.Text;
+            surname = surnameTxt.Text;
+            portfolio = portfolioTxt.Text;
+            phone = phoneTxt.Text;
+            email = emailTxt.Text;
+            risk = riskTxt.Text;
+            region = regionTxt.Text;
+            country = countryTxt.Text;
+            query = "SELECT * FROM Client WHERE Name='" + name + "' OR Surname='" + surname + "' OR Portfolio='" + portfolio + "' OR PhoneNumber='" + phone + "' OR Email='" + email + "' " +
+                "OR RiskPreference='" + risk + "' OR Region='" + region + "' OR Country='" + country + "'";
+
+            DataTable dtClient = dbConn.searchData(query);
+            dvgClient.DataSource = dtClient;
+        }
         private void ButtonActivated(object senderBtn, Color color)
         {
             if (senderBtn != null)
@@ -87,6 +115,8 @@ namespace GUI
             ButtonPanel.Visible = true;
             ButtonPanel.BringToFront();
         }
+
+        
     }
 }
 

@@ -65,7 +65,6 @@ C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\Database1_
 C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Regestration.resources
 C:\Users\agraj\Source\Repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Ideas.resources
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Ideas.resources
-C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Regestration.resources
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Account.resources
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.AuthorIdea.resources
 C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.ClientList.resources
@@ -145,3 +144,8 @@ D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\heydonttouchmyfood\TopG\GUI
 D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.csproj.CopyComplete
 D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.exe
 D:\Software Engineering (2022 MOD003263 TRI1 F01CAM)\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\System.Data.SqlClient.dll
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\bin\Debug\System.Data.SqlClient.xml
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.forgotPassword.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.Registration.resources
+C:\Users\danie\source\repos\heydonttouchmyfood\TopG\GUI\GUI\obj\Debug\GUI.csproj.CopyComplete
