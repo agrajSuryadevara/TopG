@@ -78,5 +78,13 @@ namespace GUI
             ButtonPanel.Visible = true;
             ButtonPanel.BringToFront();
         }
+
+        private void buttonShowIdeas_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Ideas";
+            DBConnection dbConn = DBConnection.getInstanceOfDBConnection();
+            DataSet dsIdea = dbConn.getDataSet(query);
+            dgvIdeas.DataSource = dsIdea.Tables[0];
+        }
     }
 }

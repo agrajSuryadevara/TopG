@@ -43,6 +43,8 @@
             this.SearchPanel = new System.Windows.Forms.Panel();
             this.SearchButton = new System.Windows.Forms.Button();
             this.SearchBox = new System.Windows.Forms.TextBox();
+            this.dgvIdeas = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             this.LeftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -51,6 +53,7 @@
             this.TopPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SearchPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIdeas)).BeginInit();
             this.SuspendLayout();
             // 
             // LeftPanel
@@ -66,7 +69,7 @@
             this.LeftPanel.Controls.Add(this.AccountButton);
             this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.LeftPanel.Location = new System.Drawing.Point(0, 65);
-            this.LeftPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LeftPanel.Margin = new System.Windows.Forms.Padding(2);
             this.LeftPanel.Name = "LeftPanel";
             this.LeftPanel.Size = new System.Drawing.Size(157, 513);
             this.LeftPanel.TabIndex = 5;
@@ -76,7 +79,7 @@
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox4.Location = new System.Drawing.Point(15, 135);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(33, 36);
             this.pictureBox4.TabIndex = 2;
@@ -87,7 +90,7 @@
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox3.Location = new System.Drawing.Point(15, 73);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(33, 36);
             this.pictureBox3.TabIndex = 2;
@@ -98,7 +101,7 @@
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Location = new System.Drawing.Point(15, 12);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(33, 36);
             this.pictureBox2.TabIndex = 2;
@@ -109,7 +112,7 @@
             this.RegistrationPicture.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegistrationPicture.BackgroundImage")));
             this.RegistrationPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.RegistrationPicture.Location = new System.Drawing.Point(15, 195);
-            this.RegistrationPicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RegistrationPicture.Margin = new System.Windows.Forms.Padding(2);
             this.RegistrationPicture.Name = "RegistrationPicture";
             this.RegistrationPicture.Size = new System.Drawing.Size(33, 36);
             this.RegistrationPicture.TabIndex = 2;
@@ -125,7 +128,7 @@
             this.RegistrationButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.RegistrationButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.RegistrationButton.Location = new System.Drawing.Point(0, 183);
-            this.RegistrationButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RegistrationButton.Margin = new System.Windows.Forms.Padding(2);
             this.RegistrationButton.Name = "RegistrationButton";
             this.RegistrationButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.RegistrationButton.Size = new System.Drawing.Size(157, 61);
@@ -144,7 +147,7 @@
             this.IdeasButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.IdeasButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.IdeasButton.Location = new System.Drawing.Point(0, 122);
-            this.IdeasButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IdeasButton.Margin = new System.Windows.Forms.Padding(2);
             this.IdeasButton.Name = "IdeasButton";
             this.IdeasButton.Size = new System.Drawing.Size(157, 61);
             this.IdeasButton.TabIndex = 2;
@@ -160,7 +163,7 @@
             this.ClientListButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.ClientListButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ClientListButton.Location = new System.Drawing.Point(0, 61);
-            this.ClientListButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ClientListButton.Margin = new System.Windows.Forms.Padding(2);
             this.ClientListButton.Name = "ClientListButton";
             this.ClientListButton.Size = new System.Drawing.Size(157, 61);
             this.ClientListButton.TabIndex = 2;
@@ -177,7 +180,7 @@
             this.AccountButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.AccountButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AccountButton.Location = new System.Drawing.Point(0, 0);
-            this.AccountButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AccountButton.Margin = new System.Windows.Forms.Padding(2);
             this.AccountButton.Name = "AccountButton";
             this.AccountButton.Size = new System.Drawing.Size(157, 61);
             this.AccountButton.TabIndex = 2;
@@ -192,7 +195,7 @@
             this.TopPanel.Controls.Add(this.SearchPanel);
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
-            this.TopPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TopPanel.Margin = new System.Windows.Forms.Padding(2);
             this.TopPanel.Name = "TopPanel";
             this.TopPanel.Size = new System.Drawing.Size(948, 65);
             this.TopPanel.TabIndex = 4;
@@ -202,7 +205,7 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(74, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -217,7 +220,7 @@
             this.SearchPanel.Controls.Add(this.SearchBox);
             this.SearchPanel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.SearchPanel.Location = new System.Drawing.Point(80, 2);
-            this.SearchPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchPanel.Margin = new System.Windows.Forms.Padding(2);
             this.SearchPanel.Name = "SearchPanel";
             this.SearchPanel.Size = new System.Drawing.Size(858, 64);
             this.SearchPanel.TabIndex = 3;
@@ -228,7 +231,7 @@
             this.SearchButton.FlatAppearance.BorderSize = 0;
             this.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SearchButton.Location = new System.Drawing.Point(260, 28);
-            this.SearchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchButton.Margin = new System.Windows.Forms.Padding(2);
             this.SearchButton.Name = "SearchButton";
             this.SearchButton.Size = new System.Drawing.Size(33, 36);
             this.SearchButton.TabIndex = 2;
@@ -239,12 +242,36 @@
             this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.SearchBox.Location = new System.Drawing.Point(335, 23);
-            this.SearchBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchBox.Margin = new System.Windows.Forms.Padding(2);
             this.SearchBox.Name = "SearchBox";
             this.SearchBox.Size = new System.Drawing.Size(188, 20);
             this.SearchBox.TabIndex = 3;
             this.SearchBox.Text = "Search";
             this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // dgvIdeas
+            // 
+            this.dgvIdeas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvIdeas.Location = new System.Drawing.Point(190, 200);
+            this.dgvIdeas.Name = "dgvIdeas";
+            this.dgvIdeas.Size = new System.Drawing.Size(718, 343);
+            this.dgvIdeas.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Window;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.BorderSize = 10;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.button1.Location = new System.Drawing.Point(485, 126);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 32);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Show Ideas";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Ideas
             // 
@@ -253,6 +280,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(948, 578);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dgvIdeas);
             this.Controls.Add(this.LeftPanel);
             this.Controls.Add(this.TopPanel);
             this.Name = "Ideas";
@@ -266,6 +295,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.SearchPanel.ResumeLayout(false);
             this.SearchPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIdeas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -286,5 +316,7 @@
         private System.Windows.Forms.Panel SearchPanel;
         private System.Windows.Forms.Button SearchButton;
         private System.Windows.Forms.TextBox SearchBox;
+        private System.Windows.Forms.DataGridView dgvIdeas;
+        private System.Windows.Forms.Button button1;
     }
 }

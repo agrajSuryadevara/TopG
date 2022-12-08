@@ -83,20 +83,20 @@
             this.LeftPanel.Controls.Add(this.ClientListButton);
             this.LeftPanel.Controls.Add(this.AccountButton);
             this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftPanel.Location = new System.Drawing.Point(0, 80);
-            this.LeftPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.LeftPanel.Location = new System.Drawing.Point(0, 65);
+            this.LeftPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LeftPanel.Name = "LeftPanel";
-            this.LeftPanel.Size = new System.Drawing.Size(209, 631);
+            this.LeftPanel.Size = new System.Drawing.Size(157, 513);
             this.LeftPanel.TabIndex = 3;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(20, 166);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(15, 135);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(44, 44);
+            this.pictureBox4.Size = new System.Drawing.Size(33, 36);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
@@ -104,10 +104,10 @@
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(20, 90);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(15, 73);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 44);
+            this.pictureBox3.Size = new System.Drawing.Size(33, 36);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
@@ -115,10 +115,10 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 15);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(15, 12);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 44);
+            this.pictureBox2.Size = new System.Drawing.Size(33, 36);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
@@ -126,10 +126,10 @@
             // 
             this.RegistrationPicture.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegistrationPicture.BackgroundImage")));
             this.RegistrationPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.RegistrationPicture.Location = new System.Drawing.Point(20, 240);
-            this.RegistrationPicture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.RegistrationPicture.Location = new System.Drawing.Point(15, 195);
+            this.RegistrationPicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RegistrationPicture.Name = "RegistrationPicture";
-            this.RegistrationPicture.Size = new System.Drawing.Size(44, 44);
+            this.RegistrationPicture.Size = new System.Drawing.Size(33, 36);
             this.RegistrationPicture.TabIndex = 2;
             this.RegistrationPicture.TabStop = false;
             // 
@@ -142,11 +142,11 @@
             this.RegistrationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.RegistrationButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.RegistrationButton.Location = new System.Drawing.Point(0, 225);
-            this.RegistrationButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.RegistrationButton.Location = new System.Drawing.Point(0, 183);
+            this.RegistrationButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RegistrationButton.Name = "RegistrationButton";
             this.RegistrationButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.RegistrationButton.Size = new System.Drawing.Size(209, 75);
+            this.RegistrationButton.Size = new System.Drawing.Size(157, 61);
             this.RegistrationButton.TabIndex = 2;
             this.RegistrationButton.Text = "   Registration";
             this.RegistrationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -161,10 +161,10 @@
             this.IdeasButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IdeasButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.IdeasButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.IdeasButton.Location = new System.Drawing.Point(0, 150);
-            this.IdeasButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.IdeasButton.Location = new System.Drawing.Point(0, 122);
+            this.IdeasButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.IdeasButton.Name = "IdeasButton";
-            this.IdeasButton.Size = new System.Drawing.Size(209, 75);
+            this.IdeasButton.Size = new System.Drawing.Size(157, 61);
             this.IdeasButton.TabIndex = 2;
             this.IdeasButton.Text = "Ideas";
             this.IdeasButton.UseVisualStyleBackColor = true;
@@ -178,10 +178,10 @@
             this.ClientListButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClientListButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.ClientListButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ClientListButton.Location = new System.Drawing.Point(0, 75);
-            this.ClientListButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ClientListButton.Location = new System.Drawing.Point(0, 61);
+            this.ClientListButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ClientListButton.Name = "ClientListButton";
-            this.ClientListButton.Size = new System.Drawing.Size(209, 75);
+            this.ClientListButton.Size = new System.Drawing.Size(157, 61);
             this.ClientListButton.TabIndex = 2;
             this.ClientListButton.Text = "Client List";
             this.ClientListButton.UseVisualStyleBackColor = true;
@@ -196,9 +196,9 @@
             this.AccountButton.ForeColor = System.Drawing.Color.AliceBlue;
             this.AccountButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AccountButton.Location = new System.Drawing.Point(0, 0);
-            this.AccountButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.AccountButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AccountButton.Name = "AccountButton";
-            this.AccountButton.Size = new System.Drawing.Size(209, 75);
+            this.AccountButton.Size = new System.Drawing.Size(157, 61);
             this.AccountButton.TabIndex = 2;
             this.AccountButton.Text = "Account";
             this.AccountButton.UseVisualStyleBackColor = true;
@@ -211,9 +211,9 @@
             this.TopPanel.Controls.Add(this.SearchPanel);
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
-            this.TopPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TopPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TopPanel.Name = "TopPanel";
-            this.TopPanel.Size = new System.Drawing.Size(1264, 80);
+            this.TopPanel.Size = new System.Drawing.Size(948, 65);
             this.TopPanel.TabIndex = 2;
             // 
             // pictureBox1
@@ -221,10 +221,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(74, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -236,10 +236,10 @@
             this.SearchPanel.Controls.Add(this.SearchButton);
             this.SearchPanel.Controls.Add(this.SearchBox);
             this.SearchPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SearchPanel.Location = new System.Drawing.Point(108, 2);
-            this.SearchPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SearchPanel.Location = new System.Drawing.Point(80, 2);
+            this.SearchPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SearchPanel.Name = "SearchPanel";
-            this.SearchPanel.Size = new System.Drawing.Size(1144, 79);
+            this.SearchPanel.Size = new System.Drawing.Size(858, 64);
             this.SearchPanel.TabIndex = 3;
             // 
             // SearchButton
@@ -247,10 +247,10 @@
             this.SearchButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SearchButton.FlatAppearance.BorderSize = 0;
             this.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SearchButton.Location = new System.Drawing.Point(347, 34);
-            this.SearchButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SearchButton.Location = new System.Drawing.Point(260, 28);
+            this.SearchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(44, 44);
+            this.SearchButton.Size = new System.Drawing.Size(33, 36);
             this.SearchButton.TabIndex = 2;
             this.SearchButton.UseVisualStyleBackColor = true;
             // 
@@ -259,10 +259,10 @@
             this.SearchBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.SearchBox.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.SearchBox.Location = new System.Drawing.Point(447, 28);
-            this.SearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SearchBox.Location = new System.Drawing.Point(335, 23);
+            this.SearchBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SearchBox.Name = "SearchBox";
-            this.SearchBox.Size = new System.Drawing.Size(249, 26);
+            this.SearchBox.Size = new System.Drawing.Size(188, 26);
             this.SearchBox.TabIndex = 3;
             this.SearchBox.Text = "Search";
             this.SearchBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -273,7 +273,8 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(225, 95);
+            this.label1.Location = new System.Drawing.Point(169, 77);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(307, 29);
             this.label1.TabIndex = 4;
@@ -286,7 +287,8 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(226, 155);
+            this.label2.Location = new System.Drawing.Point(170, 126);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 24);
             this.label2.TabIndex = 5;
@@ -296,9 +298,10 @@
             // textBoxRegName
             // 
             this.textBoxRegName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxRegName.Location = new System.Drawing.Point(229, 189);
+            this.textBoxRegName.Location = new System.Drawing.Point(172, 154);
+            this.textBoxRegName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxRegName.Name = "textBoxRegName";
-            this.textBoxRegName.Size = new System.Drawing.Size(409, 26);
+            this.textBoxRegName.Size = new System.Drawing.Size(308, 26);
             this.textBoxRegName.TabIndex = 6;
             this.textBoxRegName.TextChanged += new System.EventHandler(this.textBoxRegName_TextChanged);
             // 
@@ -308,7 +311,8 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(676, 155);
+            this.label3.Location = new System.Drawing.Point(507, 126);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 24);
             this.label3.TabIndex = 7;
@@ -318,9 +322,10 @@
             // textBoxRegSurname
             // 
             this.textBoxRegSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxRegSurname.Location = new System.Drawing.Point(680, 188);
+            this.textBoxRegSurname.Location = new System.Drawing.Point(510, 153);
+            this.textBoxRegSurname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxRegSurname.Name = "textBoxRegSurname";
-            this.textBoxRegSurname.Size = new System.Drawing.Size(456, 26);
+            this.textBoxRegSurname.Size = new System.Drawing.Size(343, 26);
             this.textBoxRegSurname.TabIndex = 8;
             this.textBoxRegSurname.TextChanged += new System.EventHandler(this.textBoxRegSurname_TextChanged);
             // 
@@ -330,7 +335,8 @@
             this.email.BackColor = System.Drawing.Color.Transparent;
             this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.email.ForeColor = System.Drawing.Color.White;
-            this.email.Location = new System.Drawing.Point(226, 246);
+            this.email.Location = new System.Drawing.Point(170, 200);
+            this.email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(63, 24);
             this.email.TabIndex = 9;
@@ -342,7 +348,8 @@
             this.phnumber.BackColor = System.Drawing.Color.Transparent;
             this.phnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.phnumber.ForeColor = System.Drawing.Color.White;
-            this.phnumber.Location = new System.Drawing.Point(226, 332);
+            this.phnumber.Location = new System.Drawing.Point(170, 270);
+            this.phnumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.phnumber.Name = "phnumber";
             this.phnumber.Size = new System.Drawing.Size(140, 24);
             this.phnumber.TabIndex = 10;
@@ -351,18 +358,20 @@
             // textBoxEMail
             // 
             this.textBoxEMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxEMail.Location = new System.Drawing.Point(230, 276);
+            this.textBoxEMail.Location = new System.Drawing.Point(172, 224);
+            this.textBoxEMail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxEMail.Name = "textBoxEMail";
-            this.textBoxEMail.Size = new System.Drawing.Size(408, 26);
+            this.textBoxEMail.Size = new System.Drawing.Size(307, 26);
             this.textBoxEMail.TabIndex = 11;
             this.textBoxEMail.TextChanged += new System.EventHandler(this.textBoxEMail_TextChanged);
             // 
             // textBoxPhNumber
             // 
             this.textBoxPhNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxPhNumber.Location = new System.Drawing.Point(229, 366);
+            this.textBoxPhNumber.Location = new System.Drawing.Point(172, 297);
+            this.textBoxPhNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxPhNumber.Name = "textBoxPhNumber";
-            this.textBoxPhNumber.Size = new System.Drawing.Size(409, 26);
+            this.textBoxPhNumber.Size = new System.Drawing.Size(308, 26);
             this.textBoxPhNumber.TabIndex = 12;
             this.textBoxPhNumber.TextChanged += new System.EventHandler(this.textBoxPhNumber_TextChanged);
             // 
@@ -372,7 +381,8 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(228, 416);
+            this.label4.Location = new System.Drawing.Point(171, 338);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 24);
             this.label4.TabIndex = 14;
@@ -381,17 +391,19 @@
             // textBoxRegion
             // 
             this.textBoxRegion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxRegion.Location = new System.Drawing.Point(236, 527);
+            this.textBoxRegion.Location = new System.Drawing.Point(177, 428);
+            this.textBoxRegion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxRegion.Name = "textBoxRegion";
-            this.textBoxRegion.Size = new System.Drawing.Size(232, 26);
+            this.textBoxRegion.Size = new System.Drawing.Size(175, 26);
             this.textBoxRegion.TabIndex = 15;
             // 
             // textBoxCountry
             // 
             this.textBoxCountry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxCountry.Location = new System.Drawing.Point(232, 600);
+            this.textBoxCountry.Location = new System.Drawing.Point(174, 488);
+            this.textBoxCountry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxCountry.Name = "textBoxCountry";
-            this.textBoxCountry.Size = new System.Drawing.Size(153, 26);
+            this.textBoxCountry.Size = new System.Drawing.Size(116, 26);
             this.textBoxCountry.TabIndex = 16;
             this.textBoxCountry.TextChanged += new System.EventHandler(this.textBoxCountry_TextChanged);
             // 
@@ -401,7 +413,8 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(232, 495);
+            this.label5.Location = new System.Drawing.Point(174, 402);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 24);
             this.label5.TabIndex = 17;
@@ -413,7 +426,8 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(228, 568);
+            this.label6.Location = new System.Drawing.Point(171, 462);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(75, 24);
             this.label6.TabIndex = 18;
@@ -426,9 +440,10 @@
             this.button1.FlatAppearance.BorderSize = 10;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.button1.Location = new System.Drawing.Point(680, 587);
+            this.button1.Location = new System.Drawing.Point(510, 477);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 39);
+            this.button1.Size = new System.Drawing.Size(118, 32);
             this.button1.TabIndex = 19;
             this.button1.Text = "SAVE";
             this.button1.UseVisualStyleBackColor = false;
@@ -440,7 +455,8 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(676, 246);
+            this.label7.Location = new System.Drawing.Point(507, 200);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 24);
             this.label7.TabIndex = 20;
@@ -449,27 +465,29 @@
             // textBoxPort
             // 
             this.textBoxPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxPort.Location = new System.Drawing.Point(680, 276);
+            this.textBoxPort.Location = new System.Drawing.Point(510, 224);
+            this.textBoxPort.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxPort.Name = "textBoxPort";
-            this.textBoxPort.Size = new System.Drawing.Size(456, 26);
+            this.textBoxPort.Size = new System.Drawing.Size(343, 26);
             this.textBoxPort.TabIndex = 21;
             // 
             // textBoxRisk
             // 
             this.textBoxRisk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.textBoxRisk.Location = new System.Drawing.Point(232, 448);
+            this.textBoxRisk.Location = new System.Drawing.Point(174, 364);
+            this.textBoxRisk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxRisk.Name = "textBoxRisk";
-            this.textBoxRisk.Size = new System.Drawing.Size(100, 26);
+            this.textBoxRisk.Size = new System.Drawing.Size(76, 26);
             this.textBoxRisk.TabIndex = 22;
             // 
             // Registration
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1264, 711);
+            this.ClientSize = new System.Drawing.Size(948, 578);
             this.Controls.Add(this.textBoxRisk);
             this.Controls.Add(this.textBoxPort);
             this.Controls.Add(this.label7);
@@ -490,7 +508,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LeftPanel);
             this.Controls.Add(this.TopPanel);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Registration";
             this.Text = "Registration";
             this.Load += new System.EventHandler(this.Regestration_Load);

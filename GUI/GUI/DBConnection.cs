@@ -111,6 +111,37 @@ namespace GUI
 
             return dt;
         }
+        public void addIdeaToDB(string sqlQuery, int Idea_ID, string Title, string Abstract, int Publish_date, int Expiry_date, string Author, string Content, int Risk_rating, string Product_type,
+               string Instrument, string Currency, string Major_sector, string Minor_sector, string Region, string Country)
+        {
+            using (SqlConnection connToDB = new SqlConnection(dBConnectionString))
+            {
+                connToDB.Open();
+                SqlCommand sqlCommand = new SqlCommand(sqlQuery, connToDB);
+                sqlCommand.CommandType = CommandType.Text;
+                sqlCommand.Parameters.Add(new SqlParameter("Idea_ID", Idea_ID));
+                sqlCommand.Parameters.Add(new SqlParameter("Title", Title));
+                sqlCommand.Parameters.Add(new SqlParameter("Abstract", Abstract));
+                sqlCommand.Parameters.Add(new SqlParameter("Publish_date", Publish_date));
+                sqlCommand.Parameters.Add(new SqlParameter("Expiry_date", Expiry_date));
+                sqlCommand.Parameters.Add(new SqlParameter("Author", Author));
+                sqlCommand.Parameters.Add(new SqlParameter("Content", Content));
+                sqlCommand.Parameters.Add(new SqlParameter("Risk_rating", Risk_rating));
+                sqlCommand.Parameters.Add(new SqlParameter("Product_type", Product_type));
+                sqlCommand.Parameters.Add(new SqlParameter("Instrument", Instrument));
+                sqlCommand.Parameters.Add(new SqlParameter("Currency", Currency));
+                sqlCommand.Parameters.Add(new SqlParameter("Major_sector", Major_sector));
+                sqlCommand.Parameters.Add(new SqlParameter("Minor_sector", Minor_sector));
+                sqlCommand.Parameters.Add(new SqlParameter("Region", Region));
+                sqlCommand.Parameters.Add(new SqlParameter("Country", Country));
+
+                //sqlCommand.Parameters.Add(new SqlParameter("Phonenumber", Phonenumber));
+                // sqlCommand.Parameters.Add(new SqlParameter("Riskpreference", Riskpreference));
+
+                sqlCommand.ExecuteNonQuery();
+
+            }
+        }
     }
 }
 
